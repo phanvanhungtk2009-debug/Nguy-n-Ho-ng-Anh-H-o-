@@ -2,7 +2,7 @@ import { GoogleGenAI, Type, FunctionDeclaration, Modality, LiveServerMessage } f
 
 // Helper to get AI instance - ensuring API key is present
 const getAIClient = () => {
-  const apiKey = process.env.API_KEY;
+  const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error("API Key not found in process.env.GEMINI_API_KEY");
   }
