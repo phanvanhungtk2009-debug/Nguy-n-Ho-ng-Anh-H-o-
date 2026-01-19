@@ -1,0 +1,7 @@
+{
+  "name": "Universe VN - Admission Portal",
+  "description": "A comprehensive university admission portal for Vietnam featuring search, comparison, and AI-powered career counseling using Gemini models.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
