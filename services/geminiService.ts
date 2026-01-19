@@ -4,7 +4,7 @@ import { GoogleGenAI, Type, FunctionDeclaration, Modality, LiveServerMessage } f
 const getAIClient = () => {
   const apiKey = process.env.API_KEY;
   if (!apiKey) {
-    throw new Error("API Key not found in process.env.API_KEY");
+    throw new Error("API Key not found in process.env.GEMINI_API_KEY");
   }
   return new GoogleGenAI({ apiKey });
 };
